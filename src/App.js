@@ -35,7 +35,7 @@ function App() {
         <input className='shadow-2xl text-blue-500 w-full' type='textbox' placeholder='PASSWORD' value={password}>
 
         </input> <br></br>
-        LENGTH IS : {length} 
+        LENGTH IS : {length}
         <input type='range' min={6} max={100} onChange={(e) => setLength(e.target.value)} ></input>
         <br></br>
         <label> NUMBER ALLOWED</label>
